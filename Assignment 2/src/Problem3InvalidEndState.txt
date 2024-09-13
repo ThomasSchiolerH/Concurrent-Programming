@@ -1,0 +1,142 @@
+7 drive 1)  1              
+7 drive 1)  else           
+6 drive 1)  1              
+6 drive 1)  else           
+5 drive 1)  1              
+5 drive 1)  else           
+4 drive 1)  1              
+4 drive 1)  _pid<5         
+3 drive 1)  1              
+3 drive 1)  _pid<5         
+2 drive 1)  1              
+2 drive 1)  _pid<5         
+1 drive 1)  1              
+1 drive 1)  _pid<5         
+0 drive 1)  1              
+0 drive 1)  _pid<5         
+7 drive 1)  upSem>0        
+7 drive 1)  upSem = (upSem 
+Process Statement          upSem      
+7 drive 1)  up==0          0          
+7 drive 1)  downSem>0      0          
+7 drive 1)  downSem = (dow 0          
+Process Statement          downSem    upSem      
+7 drive 1)  up = (up+1)    0          0          
+Process Statement          downSem    up         upSem      
+7 drive 1)  upSem = (upSem 0          1          0          
+7 drive 1)  _pid>=5        0          1          1          
+7 drive 1)  upCrit = (upCr 0          1          1          
+Process Statement          downSem    up         upCrit     upSem      
+7 drive 1)  _pid>=5        0          1          1          1          
+7 drive 1)  upCrit = (upCr 0          1          1          1          
+7 drive 1)  else           0          1          0          1          
+7 drive 1)  up = (up-1)    0          1          0          1          
+7 drive 1)  up==0          0          0          0          1          
+7 drive 1)  downSem = (dow 0          0          0          1          
+7 drive 1)  1              1          0          0          1          
+6 drive 1)  upSem>0        1          0          0          1          
+6 drive 1)  upSem = (upSem 1          0          0          1          
+7 drive 1)  else           1          0          0          0          
+6 drive 1)  up==0          1          0          0          0          
+6 drive 1)  downSem>0      1          0          0          0          
+6 drive 1)  downSem = (dow 1          0          0          0          
+6 drive 1)  up = (up+1)    0          0          0          0          
+6 drive 1)  upSem = (upSem 0          1          0          0          
+6 drive 1)  _pid>=5        0          1          0          1          
+7 drive 1)  upSem>0        0          1          0          1          
+7 drive 1)  upSem = (upSem 0          1          0          1          
+7 drive 1)  else           0          1          0          0          
+7 drive 1)  1              0          1          0          0          
+Process Statement          downSem    up         upCrit     upSem      
+7 drive 1)  up = (up+1)    0          1          0          0          
+7 drive 1)  upSem = (upSem 0          2          0          0          
+7 drive 1)  _pid>=5        0          2          0          1          
+7 drive 1)  upCrit = (upCr 0          2          0          1          
+7 drive 1)  _pid>=5        0          2          1          1          
+7 drive 1)  upCrit = (upCr 0          2          1          1          
+7 drive 1)  else           0          2          0          1          
+7 drive 1)  up = (up-1)    0          2          0          1          
+7 drive 1)  else           0          1          0          1          
+7 drive 1)  1              0          1          0          1          
+7 drive 1)  1              0          1          0          1          
+6 drive 1)  upCrit = (upCr 0          1          0          1          
+7 drive 1)  else           0          1          1          1          
+6 drive 1)  _pid>=5        0          1          1          1          
+7 drive 1)  upSem>0        0          1          1          1          
+7 drive 1)  upSem = (upSem 0          1          1          1          
+7 drive 1)  else           0          1          1          0          
+7 drive 1)  1              0          1          1          0          
+7 drive 1)  up = (up+1)    0          1          1          0          
+7 drive 1)  upSem = (upSem 0          2          1          0          
+Process Statement          downSem    up         upCrit     upSem      
+7 drive 1)  _pid>=5        0          2          1          1          
+7 drive 1)  upCrit = (upCr 0          2          1          1          
+7 drive 1)  _pid>=5        0          2          2          1          
+7 drive 1)  upCrit = (upCr 0          2          2          1          
+7 drive 1)  else           0          2          1          1          
+7 drive 1)  up = (up-1)    0          2          1          1          
+7 drive 1)  else           0          1          1          1          
+7 drive 1)  1              0          1          1          1          
+7 drive 1)  1              0          1          1          1          
+6 drive 1)  upCrit = (upCr 0          1          1          1          
+7 drive 1)  else           0          1          0          1          
+6 drive 1)  else           0          1          0          1          
+7 drive 1)  upSem>0        0          1          0          1          
+7 drive 1)  upSem = (upSem 0          1          0          1          
+7 drive 1)  else           0          1          0          0          
+7 drive 1)  1              0          1          0          0          
+7 drive 1)  up = (up+1)    0          1          0          0          
+7 drive 1)  upSem = (upSem 0          2          0          0          
+7 drive 1)  _pid>=5        0          2          0          1          
+7 drive 1)  upCrit = (upCr 0          2          0          1          
+Process Statement          downSem    up         upCrit     upSem      
+7 drive 1)  _pid>=5        0          2          1          1          
+7 drive 1)  upCrit = (upCr 0          2          1          1          
+7 drive 1)  else           0          2          0          1          
+7 drive 1)  up = (up-1)    0          2          0          1          
+7 drive 1)  else           0          1          0          1          
+7 drive 1)  1              0          1          0          1          
+7 drive 1)  1              0          1          0          1          
+6 drive 1)  up = (up-1)    0          1          0          1          
+7 drive 1)  else           0          0          0          1          
+7 drive 1)  upSem>0        0          0          0          1          
+7 drive 1)  upSem = (upSem 0          0          0          1          
+7 drive 1)  up==0          0          0          0          0          
+6 drive 1)  up==0          0          0          0          0          
+6 drive 1)  downSem = (dow 0          0          0          0          
+6 drive 1)  1              1          0          0          0          
+7 drive 1)  downSem>0      1          0          0          0          
+7 drive 1)  downSem = (dow 1          0          0          0          
+7 drive 1)  up = (up+1)    0          0          0          0          
+7 drive 1)  upSem = (upSem 0          1          0          0          
+7 drive 1)  _pid>=5        0          1          0          1          
+Process Statement          downSem    up         upCrit     upSem      
+7 drive 1)  upCrit = (upCr 0          1          0          1          
+7 drive 1)  _pid>=5        0          1          1          1          
+7 drive 1)  upCrit = (upCr 0          1          1          1          
+7 drive 1)  else           0          1          0          1          
+7 drive 1)  up = (up-1)    0          1          0          1          
+7 drive 1)  up==0          0          0          0          1          
+7 drive 1)  downSem = (dow 0          0          0          1          
+7 drive 1)  1              1          0          0          1          
+7 drive 1)  else           1          0          0          1          
+7 drive 1)  upSem>0        1          0          0          1          
+7 drive 1)  upSem = (upSem 1          0          0          1          
+4 drive 1)  downSem>0      1          0          0          0          
+4 drive 1)  downSem = (dow 1          0          0          0          
+6 drive 1)  else           0          0          0          0          
+7 drive 1)  up==0          0          0          0          0          
+4 drive 1)  down==0        0          0          0          0          
+spin: trail ends after 110 steps
+#processes: 9
+110:	proc  8 (AlleySafetyProperty:1) Man2multi.pml:82 (state 1)
+110:	proc  7 (drive:1) Man2multi.pml:14 (state 29)
+110:	proc  6 (drive:1) Man2multi.pml:28 (state 37)
+110:	proc  5 (drive:1) Man2multi.pml:28 (state 37)
+110:	proc  4 (drive:1) Man2multi.pml:14 (state 11)
+110:	proc  3 (drive:1) Man2multi.pml:19 (state 19)
+110:	proc  2 (drive:1) Man2multi.pml:19 (state 19)
+110:	proc  1 (drive:1) Man2multi.pml:19 (state 19)
+110:	proc  0 (drive:1) Man2multi.pml:19 (state 19)
+9 processes created
+Exit-Status 0
